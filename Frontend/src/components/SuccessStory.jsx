@@ -15,7 +15,7 @@ const SuccessStory = () => {
     <section className="bg-[#d6dfe7] py-20">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-5xl md:text-6xl font-extrabold mb-6">
-          Our <span className="text-blue-400">Success</span> Story
+          Our <span className="text-teal-500">Success</span> Story
         </h2>
         <p className="text-gray-600 text-lg mb-16 max-w-2xl mx-auto">
           Trusted by thousands of customers across India, delivering pure and healthy water solutions

@@ -38,7 +38,7 @@ const Milestone = () => {
     <div className="bg-[#d6dfe7] py-16 px-6 font-sans relative">
       {/* Title */}
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold">
+        <h1 className="text-5xl md:text-6xl font-bold">
           <span role="img" aria-label="trophy" className="mr-2">
             🏆
           </span>
@@ -55,7 +55,7 @@ const Milestone = () => {
       {/* Timeline */}
       <div className="relative max-w-5xl mx-auto">
         {/* Vertical line */}
-        <div className="hidden md:block absolute top-0 left-1/2 w-1 bg-blue-200 h-full -translate-x-1/2"></div>
+        <div className="hidden md:block absolute top-0 left-1/2 w-1 bg-blue-400 h-full -translate-x-1/2 z-0"></div>
 
         {milestones.map((item, index) => (
           <div
@@ -73,7 +73,7 @@ const Milestone = () => {
             <div className="hidden md:block w-10 h-1 bg-blue-300"></div>
 
             {/* Content card */}
-            <div className="bg-white shadow-lg rounded-xl p-6 w-full md:w-1/2 transition-transform duration-300 hover:scale-105">
+            <div className="bg-white shadow-lg rounded-xl p-6 w-full md:w-1/2 transition-transform duration-300 hover:scale-105 z-10">
               <h3 className="text-lg md:text-xl font-semibold text-blue-800 mb-2">
                 {item.title}
               </h3>
